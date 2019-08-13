@@ -1,0 +1,14 @@
+span{
+
+    color: green;
+    text-decoration: orange;
+    font-family: sans-serif;
+}
+p{
+    color: red;
+    font-weight: bold;
+}
+.siteName{
+    text-decoration: none;
+    color: cyan;
+}

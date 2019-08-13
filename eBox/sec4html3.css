@@ -1,0 +1,26 @@
+#para{
+    
+    text-align: center;
+}
+
+span{
+
+    
+}
+p{
+    color: red;
+    font-weight: bold;
+}
+.siteName{
+    
+    
+}
+img{
+    margin: 1cm;
+    background-color: grey;
+    padding: .35cm;
+    outline-style: solid;
+    outline-color: green;
+    outline-width: .5cm;
+   
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Personal Details</h1>
+    <script src="validate.js"></script>
+    
+    <form>
+
+
+        <table>
+            <tr>
+                <td><label for="name">Name</label> </td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td> Gender</td>
+                <td><label for="male">Male</label><input type="radio" name="gender" id="male" value="male">
+                    <label for="female">Female</label><input type="radio" name="gender" id="female" value="female"></td>
+            </tr>
+            <tr>
+                <td> Home Town </td>
+                <td> <select name="homeTown">
+                        <option>Delhi</option>
+                        <option>Pathankot</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td> <textarea name="address" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td> Skills</td>
+                <td> <label for="java">Java</label><input type="checkbox" id="java" name="skills" value="Java">
+                    <label for="html">HTML</label><input type="checkbox" name="skills" id="html" value="HTML">
+                    <label for="oracle">Oracle</label><input type="checkbox" name="skills" id="oracle" value="Oracle"></td>
+            </tr>
+            <tr>
+                <td>Password </td>
+                <td> <input type="password" name="pass" id="pass"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="button" value="Submit" onclick="validate()" >
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>
